@@ -1,0 +1,9 @@
+---
+title: Intro
+layout: post
+---
+
+Hello! This is the beginning (and hopefully not the end) of this blog. The
+goal is the practice writing and building a static sites, with the bonus of
+getting some of my thoughts on programming, technology and organization down
+in wrting. Here we go!
