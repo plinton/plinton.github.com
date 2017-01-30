@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-See [here](http://musicalcomputer.com) for more about me
+See [here](http://musicalcomputer.com) for more about me.
 
