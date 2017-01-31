@@ -1,0 +1,58 @@
+html {
+    font-family: 'Open Sans';
+    background-image: url(../images/89.png), url(../images/61.png), url(../images/43.png), url(../images/59.png), url(../images/31.png); 
+    background-size: auto, auto, auto, auto, auto;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #DE8100;
+}
+.floater {
+    position: relative;
+    clear:left;
+    height: 50%;
+    margin-bottom: 200px;
+    width: 1px;
+}
+.paper, .paper_wide {
+    clear: left;
+    position: relative;
+    width: 550px;
+    padding: 50px;
+    margin: 10% auto auto auto;
+    background-color: #E3E3E3;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3), 
+        inset 0px 0px 10px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.paper_wide {
+    width: 1300px;
+    margin-top: 25px;
+}
+.paper:before, .paper:after, .paper_wide:before, .paper_wide:after  {  
+    position: absolute;  
+    width: 40%;  
+    height: 10px;  
+    content: ' ';  
+    left: 12px;  
+    bottom: 12px;  
+    background: transparent;  
+    -moz-transform: skew(-5deg) rotate(-5deg);
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);  
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 1);  
+    z-index: -1;  
+}  
+.paper:after, .paper_wide:after  {  
+    left: auto;  
+    right: 12px;  
+    -webkit-transform: skew(5deg) rotate(5deg);  
+    -moz-transform: skew(5deg) rotate(5deg);  
+    -ms-transform: skew(5deg) rotate(5deg);  
+    -o-transform: skew(5deg) rotate(5deg);  
+    transform: skew(5deg) rotate(5deg);  
+}
+
+
+

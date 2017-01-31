@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Musical Computer - Senior Project</title>
+        <link href="css/reset.css" rel="stylesheet"> 
+        <link href='css/mcsp.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="heading">
+            <h1>Senior Project</h1>
+        </div>
+        <div id="tabs">
+            <ul id="nav" vis="tab-0">
+                <li onclick="changeTab('tab-0')" class="selected">Intro</li>
+                <li onclick="changeTab('tab-1')" class="unselected">Knee Play 1</li>
+                <li onclick="changeTab('tab-2')" class="unselected">Hands</li>
+                <li onclick="changeTab('tab-3')" class="unselected">Some of the Harmony of Maine</li>
+                <li onclick="changeTab('tab-4')" class="unselected">Reverberations</li>
+                <li onclick="changeTab('tab-5')" class="unselected">Knee Play 5</li>
+            </ul>
+            <div class="show-tab" id="tab-0">
+                <h2>Introduction</h2>
+                <p>On March 25th, 2011 at the Memorial Chapel at Wesleyan 
+                University I gave the first and only performance of my 
+                senior project "An Evening with Paul Linton." The pieces for this 
+                performance offered a 'world tour' of some late twentieth century 
+                works for the organ, with the particular intention to move forward 
+                with these pieces and the concepts underlying them towards a model 
+                in which the computer has an active part, using both the 
+                computerized systems of the organ and external computers. The 
+                concert was stuctured as a steady progression from least 
+                involvement by the computer to the greatest involvement with Knee 
+                Play 1 and Knee Play 5 acting as a comfortable easing in and out 
+                for the audience. The pipe organ is a most flexible and adaptable 
+                keyboard instrument that can interact fluently with the computer.
+                I encourage composers and performers to continue this exploration 
+                of the interaction between a performer and the computer and the 
+                role of the computer in performance. I also hope that the concepts 
+                put forward in the performance challenge audiences' ideas of the 
+                performer and the computer. A special thank you to all of my 
+                assistants and most importantly to my tutor Ron Ebrecht!</p>      
+            </div>
+            <div class="hide-tab" id="tab-1" >
+                <h2>Knee Play 1</h2>
+                <div class="video-box">
+                    <iframe width="640" height="360" 
+                            src="http://www.youtube.com/embed/XIOYjFD2je0" 
+                            frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>The opening piece for the concert was one of my favorites: 
+                Philip Glass' Knee Play 1 from <a href="http://en.wikipedia.org/wiki/Einstein_on_the_beach">
+                Einstein on the Beach</a>. I also included the prologue which 
+                involves playing an A to a G to a C in ratios of 2:3:4 starting 
+                from when the house opens until the concert actually begins (the 
+                video below only catches the very end of the prologue). The voices 
+                were generated using the <a href="http://www.cstr.ed.ac.uk/projects/festival/">
+                Festival Speech Synthesis System</a>, including the counting and singing voices
+                using Festival's singing mode which were generated into audio 
+                files. I intervened in the spoken parts to create a reasonable 
+                pacing but the singing parts allowed for computer 'interpretation,' 
+                particularly by rushing each rest. I like the term interpretation 
+                here, since everything, including errors, is a part of the 
+                performance and if a human can create errors that are part of the 
+                performance, so can a computer. Jason Jia assisted with page 
+                turning.</p>
+            </div>
+            <div class="hide-tab" id="tab-2">
+                <h2>Hands</h2>
+                <div class="video-box">
+                    <iframe width="640" height="360" 
+                            src="http://www.youtube.com/embed/4Lh_2oU0H1s" 
+                            frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>With Alvin Lucier's Hands, we begin our examination of the 
+                roles of the computer. The easiest place to start is to not have 
+                a computer involved at all. Hands is a piece for an organist and 
+                assistants where the organist plays two or more adjacent semitones 
+                while the assistants place their hands in front of the mouths of 
+                the pipes to change the pitches to be closer together. In a 
+                musical world dominated by speakers, in which many organs are 
+                actually synthesizers, this piece develops a subtle but powerful 
+                awareness in the audience that the pipe organ is a wind instrument.
+                My assistants were Lana Lana, Aaron Veerasuntharam, Rain Xie and 
+                Yvonne Lin.</p>
+            </div>
+            <div class="hide-tab" id="tab-3">
+                <h2>Some of the Harmony of Maine</h2>
+                <div class="video-box">
+                    <iframe width="640" height="360" 
+                            src="http://www.youtube.com/embed/VXR9t4dOcgA" 
+                            frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>John Cage's Some of the Harmony of Maine provides an example of 
+                the computer as an extremely simple assistant. Of the thirteen 
+                original tunes by Cage I performed four for the concert: 
+                Invitation, Harmony, the Lilly, and Alpha in that order. Whereas 
+                normally I would have several assistants changing the pipes 
+                manually, I instead had one assistant, Nat Leich, tell the 
+                computer in the organ when to change to a different set of stops.
+                As a result, I have the computer acting as my assistant and the 
+                results were subtle. Human assistants can change a limited number 
+                of stops at a time, where as the computer could change them all at 
+                once. On the other hand the computer had a slight delay in 
+                changing, causing the changes to be very audible and slightly 
+                behind the changes in notes at times. This piece is not meant to 
+                determine which is better, as that is all a question of what the 
+                asker is looking for, but merely to examine the differences.</p>
+            </div>
+            <div class="hide-tab" id="tab-4">
+                <h2>Reverberations</h2>
+                <div class="video-box">
+                    <iframe width="640" height="360" 
+                            src="http://www.youtube.com/embed/0PQwPWBn38M" 
+                            frameborder="0" allowfullscreen></iframe>                
+                </div>
+                <p>This piece, by Ronald Perera, shows the performer and computer 
+                acting equally. The computer plays a pre-defined track which 
+                complements and contrasts the organ part, however both parts are 
+                equal. Unfortunately, the recording below does not really capture 
+                the computer's part except at certain points. In addition, one of 
+                the speakers began creating a large amount of static for unknown 
+                reasons, however this merely becomes part of the performance.</p>
+            </div>
+            <div class="hide-tab" id="tab-5">
+                <h2>Knee Play 5</h2>
+                <div class="video-box">
+                    <iframe width="640" height="360" 
+                        src="http://www.youtube.com/embed/DnedZZWapzU" 
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>Here we return to Philip Glass's Einstein on the Beach and my 
+                favorite piece from the opera, Knee Play 5. Again I used Festival
+                to generate the spoken and choral voices while I doubled and 
+                played the organ part. It is very unfortunate that once again the 
+                final spoken part cannot be clearly heard as it is beautiful 
+                poetry and an important part of the piece. This piece allows the 
+                computer to take the lead with spoken and vocal parts, central to 
+                the pice, while the organist takes a supporting role. It is the 
+                reversal of the common trend of having a computer create the 
+                backing while the performer takes the lead.</p>
+            </div>
+        </div>
+        <script src="scripts/senior_pro.js"></script>
+    </body>
+</html>

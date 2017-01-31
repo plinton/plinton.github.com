@@ -1,0 +1,89 @@
+body {
+    font-family: Helvetica, Arial, serif;
+    background-color: #679ED2;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 2em;
+}
+
+#nav li {
+    float: left;
+    padding: 10px 0px 10px 5px;
+    width: 105px;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#nav li:hover {
+    cursor: pointer;
+}
+
+#nav li:nth-child(3) {
+    width: 50px;
+}
+
+#nav li:nth-child(4) {
+    width: 230px;
+}
+
+#nav li:nth-child(5) {
+    width: 115px;
+}
+
+.unselected {
+    background-color: #DFDFDF;
+}
+
+.selected {
+    background-color: #EFEFEF;
+}
+
+#heading {
+    width: 740px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #EFEFEF;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+#tabs {
+    margin: auto;
+    width: 740px;
+}
+
+#tabs h2 {
+    padding: 30px 50px 30px 50px;
+}
+
+#tabs p {
+    padding: 10px 50px 30px 50px; 
+    width: 640px;
+}
+
+.video-box {
+    padding: 50px;
+    margin: auto;
+}
+
+.show-tab {
+    background-color: #EFEFEF;
+    position: relative;
+    top: 36px;
+    visibility: visible;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.hide-tab {
+    position: absolute;
+    left: -10000px;
+    visibility: hidden;
+}
