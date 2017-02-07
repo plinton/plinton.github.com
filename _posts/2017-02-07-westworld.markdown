@@ -1,5 +1,5 @@
 ---
-title: Minimalism
+title: Westworld AI
 layout: post
 ---
 
