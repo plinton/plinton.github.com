@@ -1,58 +1,32 @@
-html {
-    font-family: 'Open Sans';
-    background-image: url(../images/89.png), url(../images/61.png), url(../images/43.png), url(../images/59.png), url(../images/31.png); 
-    background-size: auto, auto, auto, auto, auto;
-    padding: 0;
-    margin: 0;
+body {
+  font-family: "Open Sans";
+  background-color: #733702;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.07) 50%,
+      transparent 50%
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+  padding: 0;
+  margin: 0;
+  line-height: 2rem;
 }
 a {
-    color: #DE8100;
+  color: #de8100;
 }
-.floater {
-    position: relative;
-    clear:left;
-    height: 50%;
-    margin-bottom: 200px;
-    width: 1px;
-}
-.paper, .paper_wide {
-    clear: left;
-    position: relative;
-    width: 550px;
-    padding: 50px;
-    margin: 10% auto auto auto;
-    background-color: #E3E3E3;
-    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3), 
-        inset 0px 0px 10px 15px rgba(0, 0, 0, 0.1); 
+.paper {
+  position: relative;
+  width: 550px;
+  padding: 50px;
+  margin: 10% auto auto auto;
+  background-color: #e3e3e3;
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.3),
+    inset 0px 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-.paper_wide {
-    width: 1300px;
-    margin-top: 25px;
+.paper p {
+  font-size: larger;
 }
-.paper:before, .paper:after, .paper_wide:before, .paper_wide:after  {  
-    position: absolute;  
-    width: 40%;  
-    height: 10px;  
-    content: ' ';  
-    left: 12px;  
-    bottom: 12px;  
-    background: transparent;  
-    -moz-transform: skew(-5deg) rotate(-5deg);
-    -webkit-transform: skew(-5deg) rotate(-5deg);
-    transform: skew(-5deg) rotate(-5deg);  
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 1);  
-    z-index: -1;  
-}  
-.paper:after, .paper_wide:after  {  
-    left: auto;  
-    right: 12px;  
-    -webkit-transform: skew(5deg) rotate(5deg);  
-    -moz-transform: skew(5deg) rotate(5deg);  
-    -ms-transform: skew(5deg) rotate(5deg);  
-    -o-transform: skew(5deg) rotate(5deg);  
-    transform: skew(5deg) rotate(5deg);  
-}
-
-
-
